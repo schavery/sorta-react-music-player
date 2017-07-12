@@ -1,7 +1,6 @@
 import os
 
-from flask import Flask
-from flask import jsonify
+from flask import Flask, jsonify, send_from_directory
 from glob import glob
 from mutagen.easyid3 import EasyID3
 from mutagen.mp3 import MP3
@@ -17,6 +16,10 @@ for file in glob('files/*'):
         pass
 
 app = Flask(__name__)
+
+@app.route('/files/<path:path>')
+def send_file(path):
+    return send_from_directory('files', path)
 
 @app.route('/index')
 def index():
