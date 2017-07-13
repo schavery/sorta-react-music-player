@@ -25,6 +25,10 @@ def send_file(path):
 def index():
     return jsonify(files)
 
+# @app.route('/')
+# def home():
+#     return
+
 # @app.route('/upload')
 # def upload():
 #     pass
