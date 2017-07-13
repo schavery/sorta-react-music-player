@@ -1,3 +1,5 @@
+<img width="838" alt="screen shot 2017-07-12 at 10 19 31 pm" src="https://user-images.githubusercontent.com/762536/28151627-7e47b390-6750-11e7-8bed-21d3e1019cc8.png">
+
 install steps:
 have python 3 installed
 
