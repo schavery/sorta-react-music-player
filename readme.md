@@ -4,15 +4,15 @@
 
 ## install steps:
 * have python 3 installed
-* pip3 install flask
-* pip3 install mutagen
+* `pip3 install flask`
+* `pip3 install mutagen`
 * create a directory called files in the root of the project and copy some mp3s in there
 
 ## run:
-* FLASK_APP=server.py flask run
+* `FLASK_APP=server.py flask run`
 
 ## then also run:
-* cd mashape-project-js-src && yarn start
+* `cd mashape-project-js-src && yarn start`
 (npm start would also work if you dont have yarn installed.)
 
 Then visit localhost:5000 to see the list of songs that I was working from, and see the audio controls (that don't currently work, I just hardcoded what was in my system into the react container.)
