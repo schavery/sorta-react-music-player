@@ -3,3 +3,7 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.track-title, .track-artist {
+	text-overflow: ellipsis;
+}
